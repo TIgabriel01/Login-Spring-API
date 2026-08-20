@@ -1,0 +1,28 @@
+h1 {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    color: rgb(239, 241, 243);
+}
+
+body {
+    background-color: rgb(7, 4, 54);
+}
+
+.box, form{
+    gap: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+input{
+    width: 250px;
+    height: 25px;
+    border-radius: 8px;
+    padding: 0 15px 0 15px;
+}
+
+button{
+    width: 110px;
+    height: 25px;
+}
